@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/yunxia/demo04/src/tf03_tfs/scripts"
+    ],
+    "files.associations": {
+        "cmath": "cpp",
+        "complex": "cpp"
+    }
+}

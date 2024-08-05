@@ -1,0 +1,2 @@
+tf01_static:tf02_dynamic:tf03_tfs:tf04_test
+-DCATKIN_DEVEL_PREFIX=/home/yunxia/demo04/devel -DCMAKE_INSTALL_PREFIX=/home/yunxia/demo04/install -G Unix Makefiles

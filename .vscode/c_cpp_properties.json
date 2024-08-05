@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/usr/include/**",
+        "/home/yunxia/demo04/src/tf01_static/src/**",
+        "/home/yunxia/demo04/src/tf02_dynamic/src/**",
+        "/home/yunxia/demo04/src/tf03_tfs/src/**",
+        "/home/yunxia/demo04/src/tf04_test/src/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
