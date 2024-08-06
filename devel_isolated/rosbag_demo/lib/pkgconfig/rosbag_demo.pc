@@ -1,0 +1,8 @@
+prefix=/home/yunxia/demo04/devel_isolated/rosbag_demo
+
+Name: rosbag_demo
+Description: Description of rosbag_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

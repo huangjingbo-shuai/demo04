@@ -11,7 +11,8 @@
         "/home/yunxia/demo04/src/tf01_static/src/**",
         "/home/yunxia/demo04/src/tf02_dynamic/src/**",
         "/home/yunxia/demo04/src/tf03_tfs/src/**",
-        "/home/yunxia/demo04/src/tf04_test/src/**"
+        "/home/yunxia/demo04/src/tf04_test/src/**",
+        "/home/yunxia/demo04/src/rosbag_demo/src/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

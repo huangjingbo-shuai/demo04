@@ -147,6 +147,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tf04_test" TYPE PROGRAM FILES "/home/yunxia/demo04/build_isolated/tf04_test/catkin_generated/installspace/test01_new_turtle_p.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tf04_test" TYPE PROGRAM FILES "/home/yunxia/demo04/build_isolated/tf04_test/catkin_generated/installspace/test02_pub_turtle_p.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tf04_test" TYPE PROGRAM FILES "/home/yunxia/demo04/build_isolated/tf04_test/catkin_generated/installspace/test03_control_turtle2_p.py")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/yunxia/demo04/build_isolated/tf04_test/gtest/cmake_install.cmake")

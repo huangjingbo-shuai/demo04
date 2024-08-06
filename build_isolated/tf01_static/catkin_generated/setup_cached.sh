@@ -7,4 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/yunxia/demo04/build_isolated/tf01_static'
